@@ -3,7 +3,7 @@
 # 1. Computer science is not the study of computers. Computers are simply a tool to design, analyze, and experiment with
 #       information.
 #
-# 2. The Central Processing Unit is the brain of the computer. The CPU accesses information that is stored in the main
+# 2. The Central Processing Unit is the brain of the computer. The CPU accesses information that is stored in main
 #       memory (this main memory is called Random Access Memory). Input devices such as a keyboard or monitor is
 #       processed also by the CPU. The CPU follows a "fetch-execute cycle" for processing: fetch -> decode -> execute.
 #
@@ -48,7 +48,7 @@
 #
 # 5. Humans need low-level machine language translated into high-level language, B.
 #
-# 6. A statement is complete command, B.
+# 6. A statement is a complete command, B.
 #
 # 7. High-level language can be either 1) compiled or 2) interpreted. A compiler takes source code and compiles
 #       high-level source code to machine code BEFORE the program is executed. Once this is performed, the program/code
@@ -64,18 +64,35 @@
 # 10. Parameters are synonymous with arguments in reference to a function, D.
 #
 #
-#Compare and contrast the following pairs of concepts from the chapter:
-a) Hardware vs. Software
-b) Algorithm vs. Program
-c) Programming Language vs. Natural Language
-d) High-Level Language vs. Machine Language
-e) Interpreter vs. Compiler
-f ) Syntax vs. Semantics
-2. List and explain in your own words the role of each of the five basic functional
-units of a computer depicted in Figure 1.1.
-3. Write a detailed algorithm for making a peanut butter and jelly sandwich
-(or some other everyday activity). You should assume that you are talking
-to someone who is conceptually able to do the task, but has never actually
-done it before. For example, you might be telling a young child.
+# 1. Compare and contrast the following pairs of concepts from the chapter:
+# a) Hardware vs. Software
+#   Software (programs) rules the hardware (physical machine). Software determines what the computer can do.
+# b) Algorithm vs. Program
+#   A computer program is a detailed, step by step of instructions telling the computer what to do. An algorithm is a
+#   step by step process for achieving a desired result. An algorithm performs a very specific task and there could be
+#   multiple algorithms in one computer program. An analogy for this: follow an algorithm for making tomato sauce,
+#   and you'll have one of the recipes completed for a pizza. The program in this analogy is the pizza. Also, there does
+#   have to be an algorithm in a computer program.
+# c) Programming Language vs. Natural Language
+#   A high-level programming language is closer to resembling natural language than low-level languages. Semantics and
+#   syntax play an important role for programming languages and natural language.
+# d) High-Level Language vs. Machine Language
+#   Machine language is binary, high-level resembles more closely with natural English language. Refer to #7 above.
+# e) Interpreter vs. Compiler
+#   #7 above.
+# f) Syntax vs. Semantics
+#   Refer to #7 in section above.
+
+# 2. List and explain in your own words the role of each of the five basic functional units of a computer depicted
+# in Figure 1.1.
+#   Input devices: keyboards, mouse, etc. Provides data and control signals to computer.
+#   CPU: "brain of the computer"
+#   Main memory: RAM; fast, volatile; the CPU can only access information from main memory; fast, expensive, small
+#   capacity.
+#   Secondary memory: A location where programs and data are kept in long term storage; slow, cheap, large capacity,
+#   not directly tied to CPU.
+#   Output devices: printers, displays, etc. Sends data and control signals to device.
 #
+# 3. Write a detailed algorithm for making a peanut butter and jelly sandwich.
+#   Intentionally skipping this question in the book.
 
