@@ -113,3 +113,75 @@ def main5():
     print("\nAll done for now!")
 
 #6. futval.py
+def main6():
+    print("This program calculates the future value")
+
+    principal = eval(input("Enter the initial principal: "))
+    apr = eval(input("Enter the annual interest rate: "))
+    years_number = eval(input("Enter the number of years until withdrawl: "))
+
+    for i in range(years_number):
+        principal = principal * (1 + apr/100)
+
+    print("The value in", years_number, "years is:", principal)
+
+#7. futval.py
+def main7():
+    print("This program calculates the future value")
+
+    deposit = eval(input("Enter the annual deposit: "))
+    apr = eval(input("Enter the annual interest rate: "))
+    years_number = eval(input("Enter the number of years until withdrawl: "))
+
+    initial_amount = 0
+    for i in range(years_number):
+        deposit = (initial_amount + deposit) * (1 + apr/100)
+
+    print("Here is your annual amount rounded up to the nearest dollar", deposit)
+
+#8. futval.py (I was not able to figure this one out on my own without help)
+def main8():
+    print("This program calculates the future value of an investment.")
+    print()
+
+    principal = eval(input("Enter the initial principal: "))
+    rate = eval(input("Enter the interest rate: "))
+    periods = eval(input("Enter the number of compounding periods per year: "))
+    years = eval(input("Enter the number of years: "))
+
+    for i in range(years * periods):
+        principal = principal * (1 + rate / periods)
+
+    print("The amount in", years, "years is:", principal)
+
+#9. convert.py
+def main9():
+    print("Hello there, this is a program that can be used in any instance to quickly convert\nfrom Fahrenheit to Celsius!", "\n")
+    fahrenheit = eval(input("What is the Fahrenheit temperature? "))
+    celsius = (5 * (fahrenheit - 32) / 9)
+    print("The temperature is", celsius, 'degrees Celsius.')
+    print(input("Press the <Enter> key to quit."))
+
+#10.
+def main10():
+    print("This is a program that converts kilometers to miles")
+    kilometers = eval(input("Enter the amount in kilometers: "))
+    miles = (62/100) * kilometers
+    print(miles, "miles is equal to", kilometers, "kilometers")
+
+#11.
+def main11():
+    print("This is a program that converts your personal records in kilograms (kg) to pounds (lbs) to see\nif you break the 1000lb club.\n")
+    kilograms = eval(input("Enter the total amount you lifted on deadlifts, squats, and bench in (kg): \n"))
+    pounds = kilograms * 2.20462
+    if pounds >= 1000:
+        print("You crushed it! Welcome to the club,", pounds, "lbs")
+    else:
+        print("Keeping working at it, you'll get there soon,", pounds, "lbs")
+
+#12.
+def main12():
+    print("This is a program that works as a calculator to perform basic arithmetic.\n")
+    while True:
+        variable = eval(input("Input integers or floats and be sure to include an operator (* / + -): "))
+        print(float(variable))
