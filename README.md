@@ -6,6 +6,6 @@ It is crucial for any computer science student to not only recieve good grades i
 
 The style of the way I wrote the answers will be in the format of me sort of teaching a classroom rather than answering a question. The thought process for this is for this to be a resource for anyone that wants to use it.
 
-These files are my own solutions to textbook practice questions to John Zelle's Python Programming: An Introduction to Computer Science, 3rd Edition.
+These files are my own solutions to textbook practice questions to John Zelle's Python Programming: An Introduction to Computer Science, 3rd Edition. Any solutions that I was not able to solve on my own I annotated.
 
 Feel free to offer any input on how to improve or clean any code.
